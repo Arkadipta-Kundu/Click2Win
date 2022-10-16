@@ -1,1 +1,72 @@
-.game-over,.red{background-color:red}body,footer{text-align:center}a,footer{font-family:cursive}#how,#level-title{font-family:'Press Start 2P',cursive;margin:5%;color:#fef2bf}#how,#level-title,a,footer{color:#fef2bf}body{background-color:#011f3f}#level-title{font-size:3rem}.container{display:block;width:50%;margin:auto}.btn{margin:25px;display:inline-block;height:200px;width:200px;border:10px solid #000;border-radius:20%}.game-over{opacity:.8}.green{background-color:green}.blue{background-color:#00f}.yellow{background-color:#ff0}.pressed{box-shadow:0 0 20px #fff;background-color:grey}button{margin:2rem 2rem 5rem;padding:3rem;background-color:#008b8b;border-radius:30%;border:5px solid #000;font-weight:800;color:#000}a{margin:1rem;font-size:1.3rem;text-decoration:none}#how{font-size:2rem}
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer{
+  color: #FEF2BF;
+  text-align: center;
+  font-family: cursive;
+}
+button{
+  margin: 2rem;
+  margin-bottom: 5rem;
+  padding: 3rem;
+  background-color: darkcyan;
+  border-radius: 30%;
+  border: 5px solid black;
+  font-weight: 800;
+  color: black;
+}
+a{
+  margin: 1rem;color: #FEF2BF;font-family: cursive;font-size: 1.3rem;text-decoration: none;
+}
